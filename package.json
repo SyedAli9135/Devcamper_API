@@ -4,8 +4,8 @@
   "description": "DevCamper Backend API",
   "main": "server.js",
   "scripts": {
-    "start": "NODE_ENV=production node server",
-    "dev": "nodemon server"
+    "start": "NODE_ENV=production && node src/server",
+    "dev": "NODE_ENV=development && nodemon src/server"
   },
   "author": "Syed Muhammad Ali",
   "license": "MIT",
